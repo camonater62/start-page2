@@ -1,6 +1,8 @@
 # start-page
 My start page
 
+![picture](https://i.imgur.com/GvCY9ba.png)
+
 Github Pages:
 https://camonater62.github.io/start-page2/index.html
 
