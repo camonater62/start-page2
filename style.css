@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'f0nt';
+  src: url('./Atami-Bold.otf');
+}
+
 * {
   border: 0; padding: 0; margin: 0;
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -6,17 +11,23 @@
 body {
   background: url('https://source.unsplash.com/random/1920x1080') no-repeat;
   color: #000;
-
-  font-family: "Helvetica Neue";
+  font-family: 'f0nt';
   font-size: 1em;
   text-align: center;
+}
+
+#search {
+  position: relative;
+  text-align: center;
+  margin: 20px auto;
+  font-family: 'f0nt';
 }
 
 ul {
   max-width: 400px;
   width: 100%;
   text-align: left;
-  margin: 100px auto;
+  margin: 10px auto;
 }
 
 li {
