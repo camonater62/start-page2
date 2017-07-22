@@ -48,6 +48,13 @@ function search(query){
 			query.replaceChars(" ", "+")
 		break;
 		
+	case "-i":
+		query=query.substr(3);
+		window.location =
+			"https://www.google.com/search?tbm=isch&q=" +
+			query.replaceChars(" ", "%20");
+		break;
+		    
         default:
             window.location="https://start.duckduckgo.com/?q=" +
                 query.replaceChars(" ", "+") + "&t=h_&ia=web";
