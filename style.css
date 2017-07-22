@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'f0nt';
   src: url('./Atami-Bold.otf');
+  color: #FFF;
 }
 
 * {
