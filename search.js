@@ -56,7 +56,7 @@ function search(query){
 		break;
 		    
         default:
-            window.location="https://start.duckduckgo.com/?q=" +
+            window.location="https://duckduckgo.com/?q=" +
                 query.replaceChars(" ", "+") + "&t=h_&ia=web";
     }
 }
