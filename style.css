@@ -20,6 +20,7 @@ body {
 #search {
   position: relative;
   text-align: left;
+  width: 300px;
   margin: 17px 20px 17px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
