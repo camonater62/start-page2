@@ -30,7 +30,7 @@ function search(query){
         case "-p":
             query = query.substr(3);
             window.location =
-                "https://thepiratebay.se/search/" +
+                "https://thepiratebay.org/search/" +
                 query.replaceChars(" ", "%20");
             break;
 
