@@ -10,7 +10,8 @@
 }
 
 body {
-  background: url('https://unsplash.it/1920/1080/?random') no-repeat;
+  background-color: #131313;
+  background-image: url('https://unsplash.it/1920/1080/?random');
   color: #000;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
