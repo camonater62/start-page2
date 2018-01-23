@@ -14,24 +14,23 @@ String.prototype.replaceChars = function(character, replacement){
  
 function search(query){
     switch(query.substr(0, 2)){
-        case "-g":
-            query = query.substr(3);
-            window.location = "https://www.google.com/?gws_rd=ssl#q=" +
-                query.replaceChars(" ", "%20");
-            break;
-
         case "-y":
             query = query.substr(3);
             window.location =
                 "https://www.youtube.com/results?search_query=" +
                 query.replaceChars(" ", "%20");
             break;
-
         case "-p":
             query = query.substr(3);
             window.location =
                 "https://thepiratebay.org/search/" +
                 query.replaceChars(" ", "%20");
+            break;
+		case "-d":
+            query = query.substr(3);
+            window.location =
+                "http://www.dictionary.com/browse/" +
+                query.replaceChars(" ", "-");
             break;
 
     case "-w":
@@ -45,7 +44,7 @@ function search(query){
 		query=query.substr(3);
 		window.location =
 			"http://www.urbandictionary.com/define.php?term=" +
-			query.replaceChars(" ", "+")
+			query.replaceChars(" ", "+");
 		break;
 		
 	case "-i":
@@ -54,10 +53,17 @@ function search(query){
 			"https://www.google.com/search?tbm=isch&q=" +
 			query.replaceChars(" ", "%20");
 		break;
-		    
+		
+	case "-a":
+		query=query.substr(3);
+		window.location =
+			"https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=" +
+		    query.replaceChars(" ", "+");
+		break;
+		
         default:
-            window.location="https://duckduckgo.com/?q=" +
-                query.replaceChars(" ", "+") + "&t=h_&ia=web";
+            window.location="https://www.google.com/?gws_rd=ssl#q=" +
+                query.replaceChars(" ", "%20");
     }
 }
  
