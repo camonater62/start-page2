@@ -22,14 +22,12 @@ body {
   position: relative;
   text-align: left;
   width: 300px;
-  margin: 17px 20px 17px;
+  margin: 17px 20px 17px 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #FFF;
-  background-image: linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
-  background-image: -moz-linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
-  background-image: -webkit-linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
-}
+  background-color: #363636;
+ }
 
 ul {
   max-width: 400px;
@@ -44,16 +42,14 @@ li {
   -moz-border-radius: 3px;
   border-radius: 3px;
 
-  /* Add hard shadow */
+  /* Add Hard Shadow */
   -webkit-box-shadow: 2px 2px 0px rgba(50, 50, 50, 0.15);
   -moz-box-shadow:    2px 2px 0px rgba(50, 50, 50, 0.15);
   box-shadow:         2px 2px 0px rgba(50, 50, 50, 0.15);
 
-  /* Gradient background */
-  background-image: linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
-  background-image: -moz-linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
-  background-image: -webkit-linear-gradient(bottom, rgb(38,38,38) 0%, rgb(46,46,46) 100%);
-
+  /* Background Color */
+  background-color: #363636;
+  
   list-style-type: none;
   margin: 10px 5px;
 }
