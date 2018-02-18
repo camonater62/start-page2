@@ -59,13 +59,6 @@ li:hover {
   background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(26,26,26) 100%);
   background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(26,26,26) 100%);
 }
-li:hover:before {
-  float: right;
-  content: "◊";
-  color: #FFFFFF;
-  margin: 20px;
-}
-
 li a {
   display: block;
 
