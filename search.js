@@ -20,24 +20,12 @@ function search(query){
                 "https://www.youtube.com/results?search_query=" +
                 query.replaceChars(" ", "%20");
             break;
-        case "-p":
-            query = query.substr(3);
-            window.location =
-                "https://thepiratebay.org/search/" +
-                query.replaceChars(" ", "%20");
-            break;
-		case "-d":
-            query = query.substr(3);
-            window.location =
-                "http://www.dictionary.com/browse/" +
-                query.replaceChars(" ", "-");
-            break;
-
-    case "-w":
-        query=query.substr(3);
-        window.location = 
-            "https://en.wikipedia.org/wiki/" + 
-            query.replaceChars(" ", "_");
+		    
+   	 case "-w":
+       	    query=query.substr(3);
+            window.location = 
+            	"https://en.wikipedia.org/wiki/" + 
+            	query.replaceChars(" ", "_");
             break;
 			
 	case "-u":
