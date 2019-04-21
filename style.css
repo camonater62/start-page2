@@ -11,7 +11,7 @@
 
 body {
   background-color: #131313;
-  background-image: url('https://unsplash.it/1920/1080/?random');
+  background-image: url('https://source.unsplash.com/random/1920x1080');
   color: #000;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
