@@ -1,9 +1,3 @@
-@font-face {
-  font-family: 'Open Sans', sans-serif;
-  src: url('./Champagne & Limousines.ttf');
-  color: #FFF;
-}
-
 * {
   border: 0; padding: 0; margin: 0;
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
